@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html, main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; 
+    line-height: 1.15; 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   
+    }
+  
+main{
+    color: #212529;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: left;
+  }
+  
+header, 
+nav, 
+footer, 
+section,
+div{
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+}
+
+
+/* setting up the navigation bar as horizontal */
+/*navbar fixed o the top with position:fixed */
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+  
+  li {
+    float: left;
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5em 1.7em;
+  }
+  
+  /* Change the link color to green on hover */
+  li a:hover {
+    background-color: green;
+  }
+ 
+/*section dedicated to the main page*/
+  .homesection{
+    display: flex;
+    background-image: url(./image/general/backgroundimage-1.jpg);
+    padding: 0;
+    height: 1000px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+  }
+ 
+  .portrait{
+    height: 500px;
+    width: 400px;
+    padding-right: 15em;
+    padding-top: 3em;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .text-alignment{
+    padding-right: 5em;
+    padding-top: 7em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+  .intro-1{
+    text-align: center;
+    color: antiquewhite;
+
+  }
+  .name{
+    text-align: center;
+    color: antiquewhite;
+
+  }
+  .intro-2{
+    text-align: center;
+    color: antiquewhite;
+
+  }
+
+/*setting up the section about me*/
+.personal-details{
+    background-color: aliceblue;
+}
+
+.container-1 {
+    text-align: center;
+    border: black;
+}
+#about-me{
+
+}
+.text-1{
+    text-align: left;
+    padding-left: 5em;
+    padding-right: 5em;
+
+}
+#second-title{
+    text-align: center;
+}
+
+
+/*experience section*/
+
+.journey{
+    display: flex;
+    background-color: azure;
+    padding: 0;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.experience-container{
+    display: inline-block;
+    padding-bottom: 5em;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.interhome{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+    
+
+}
+.ab-inbev{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+    
+
+}
+.msd{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+    
+
+}
+.vacasa{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.carrier{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+  
+
+}
+.goos{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+    
+
+}
+
+.title-experience2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
+#experience-image{
+    height: 100%;
+    width: 100%;
+
+}
+
+/*my skills set*/
+
+
+.skills-builed{
+    display: inline-block;
+    padding-bottom: 5em;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: aquamarine;
+
+}
+.javascript{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.htmllang{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.css{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.solidity{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.gitlab{
+
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+}
+.git{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.github{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.nodejs{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.react-native{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.VS-code{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.npm{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.rust{
+    height: 50px;
+    width: 75px;
+    padding: 1.5em;
+    display: inline-block;
+    position: relative;
+
+}
+.skills-title{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 0.75em;
+
+    top: 50%; /* Position in center vertically */
+    transform: translateY(-50%); /* Position in center vertically */
+    left: 0;
+    opacity: 0; /* Hide the title*/
+    transition: all 0.3s ease-in-out; /* Animation to fade in */
+    width: 100%
+
+}
+.skills-builed:hover .skills-title{
+    opacity: 1; /* make the text appear when hover over the mouse on top of imgade*/
+}
+
+#skills-logo{
+    height: 100%;
+    width: 100%;
+
+}
+
+/*my project overview section*/
+.myprojects {
+    background-color: blanchedalmond;
+
+}
+
+.goosfinance{
+    height: 200px;
+    width: 300px;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+    
+
+}
+.project-title{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+
+}
+#project-image{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
