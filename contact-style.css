@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html, body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; 
+    line-height: 1.15; 
+    width: 100%;
+    height: 650px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   
+    }
+  
+main{
+  height: 600px;
+  
+}
+  
+header, 
+nav, 
+footer, 
+section,
+div{
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+h1 {
+    text-align: center;
+}
+h2{
+  text-align: left;
+
+}
+footer{
+  background-color: black;
+  height: 50px;
+  color: white;
+}
+
+
+/* setting up the navigation bar as horizontal */
+/*navbar fixed o the top with position:fixed */
+.conatct-ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+  
+  .li-contact{
+    float: left;
+   
+  }
+  
+  .li-contact {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5em 1.7em;
+  }
+  
+  /* Change the link color to green on hover */
+  .li-contact:hover {
+    background-color: green;
+  }
+  
+  /*settings of the contacts points overview*/
+  .contact-title{
+    padding-top: 5em;
+    text-align: center;
+  }
+  .contact-container{
+    display: flex;
+    background-color: burlywood;
+    padding-top: 0em;
+    padding-right: 5em;
+    height: 500px;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .contact-list{
+    height: 100%;
+    width: 50%;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+
+  }
+  .form-box{
+      height: 100%;
+      width: 50%;
+      padding: 3.5em;
+      display: inline-block;
+      position: relative;
+  }
+
+  #logo-image{
+    height: 25px;
+    width: 25px;
+  }
+  li{
+    padding: 0.2em;
+  }
+  ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
