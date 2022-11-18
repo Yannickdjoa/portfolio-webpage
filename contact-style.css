@@ -92,7 +92,7 @@ footer{
 
   .contact-list{
     height: 100%;
-    width: 50%;
+    width: 30%;
     padding: 3.5em;
     display: inline-block;
     position: relative;
@@ -100,7 +100,7 @@ footer{
   }
   .form-box{
       height: 100%;
-      width: 50%;
+      width: 30%;
       padding: 3.5em;
       display: inline-block;
       position: relative;
@@ -117,4 +117,49 @@ footer{
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+  }
+
+  /*feedback section tab*/
+
+  .feedback-container{
+    height: 100%;
+    width: 30%;
+    padding: 3.5em;
+    display: inline-block;
+    position: relative;
+
+  }
+  .feedback-title{
+    padding-top: 0.5em;
+    padding-left: 5em;
+    text-align: center;
+
+  }
+  
+ .feedback-button{
+    height: 10px;
+    width: 75px;
+    padding: 3em;
+    
+    display: inline-block;
+    position: relative;
+
+  }
+  button{
+    
+    background-color: greenyellow;
+    height: 50px;
+    width: 75px;
+
+
+  }
+  #thumbnail-image{
+    height: 100%;
+    width: 100%;
+
+  }
+  #thumbnail-image-1{
+    height: 100%;
+    width: 100%;
+
   }
